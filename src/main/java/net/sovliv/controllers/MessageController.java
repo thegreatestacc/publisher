@@ -22,7 +22,7 @@ public class MessageController {
     Logger logger = LoggerFactory.getLogger(MessageController.class);
 
     /**
-     * Класс, в котором задаются все параметры для объекта.
+     * Метод, в котором задаются все параметры для объекта.
      * @return JSON Object.
      */
     @GetMapping("/get")
