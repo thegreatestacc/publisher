@@ -33,7 +33,7 @@ public class MessageController {
         message.setMsisdn(Math.random()*100);
         //рандомно задаю значение для второго параметра объекта
         message.setAction(message.getMsisdn() > 50 ? "PURCHASE" : "SUBSCRIPTION");
-        //задаю дату
+        //задаю timestamp
         message.setTimestamp(System.currentTimeMillis());
 
         if (message.getAction() == null || message.getTimestamp() == null) {
