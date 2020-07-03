@@ -25,7 +25,7 @@ public class MessageController {
      * Метод, в котором задаются все параметры для объекта.
      * @return JSON Object.
      */
-    @GetMapping("/get")
+    @GetMapping("/create")
     public Message createMessage() {
         Message message = new Message();
 
